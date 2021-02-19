@@ -1,0 +1,25 @@
+version = 1
+
+exclude_patterns = [
+    "public/**,",
+    "dist/**",
+    ".next/**",
+    "node_modules/**",
+    ".vscode/**"
+]
+
+test_patterns = [
+  "tests/**",
+  "*.spec.js"
+]
+
+[[analyzers]]
+name = "javascript"
+enabled = true
+
+    [analyzers.meta]
+    environment = ["nodejs","browser","jest"]
+    module_system = "es-modules"
+    plugins = ["react"]
+    style_guide = "airbnb"
+    dialect = "typescript"
