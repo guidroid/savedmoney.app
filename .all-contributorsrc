@@ -11,13 +11,14 @@
   "commitConvention": "eslint",
   "contributors": [
     {
-      "login": "guilherme",
-      "name": "Guilherme Campos",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19025?v=4",
-      "profile": "https://github.com/guilherme",
+      "login": "guidroid",
+      "name": "Guilherme Santos",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10600408?v=4",
+      "profile": "http://www.tytow.com/",
       "contributions": [
         "question",
         "code",
+        "content",
         "design",
         "doc",
         "example",
@@ -25,8 +26,11 @@
         "infra",
         "maintenance",
         "projectManagement",
-        "review",
-        "test"
+        "security",
+        "talk",
+        "test",
+        "tool",
+        "translation"
       ]
     }
   ],
