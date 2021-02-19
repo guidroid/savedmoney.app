@@ -1,0 +1,34 @@
+{
+  "projectName": "savedmoney.app",
+  "projectOwner": "guidroid",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "eslint",
+  "contributors": [
+    {
+      "login": "guilherme",
+      "name": "Guilherme Campos",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19025?v=4",
+      "profile": "https://github.com/guilherme",
+      "contributions": [
+        "question",
+        "code",
+        "design",
+        "doc",
+        "example",
+        "ideas",
+        "infra",
+        "maintenance",
+        "projectManagement",
+        "review",
+        "test"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}
