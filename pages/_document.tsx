@@ -14,7 +14,7 @@ class MyDocument extends Document {
           <meta name="theme-color" content={theme.palette.primary.main} />
 
           <meta httpEquiv="content-type" content="text/html;charset=utf-8" />
-          <meta httpEquiv="content-language" content="pt-br" />
+          <meta httpEquiv="content-language" content="en" />
           <meta
             name="keywords"
             content="savedmoney, savings, money, saved money, dont spend"
@@ -25,12 +25,12 @@ class MyDocument extends Document {
             rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap"
           />
-          <link rel="icon" type="image/png" href="/favicon.png" />
+          <link rel="icon" type="image/png" href="/images/icons/192.png" />
           <link rel="manifest" href="/manifest.json" />
 
           <meta name="mobile-web-app-capable" content="yes" />
           <meta name="apple-mobile-web-app-capable" content="yes" />
-          <link rel="apple-touch-icon" href="/favicon.png" />
+          <link rel="apple-touch-icon" href="/images/icons/192.png" />
           <meta name="msapplication-starturl" content="/" />
           <link rel="canonical" href="http://savedmoney.app/" />
         </Head>
