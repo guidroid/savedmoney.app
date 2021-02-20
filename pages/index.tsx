@@ -7,12 +7,10 @@ import {
   CardContent,
   Container,
   Dialog,
-  Divider,
   FilledInput,
   FormControl,
   Grow,
   IconButton,
-  InputAdornment,
   InputLabel,
   List,
   ListItem,
@@ -20,8 +18,6 @@ import {
   ListItemSecondaryAction,
   ListItemText,
   makeStyles,
-  Slide,
-  TextField,
   Toolbar,
   Typography
 } from "@material-ui/core";
@@ -41,11 +37,6 @@ const useStyles = makeStyles((theme) => ({
     flex: 1
   }
 }));
-
-// eslint-disable-next-line react/display-name
-const Transition = React.forwardRef((props, ref) => (
-  <Slide ref={ref} {...props} />
-));
 
 const Index = (): JSX.Element => {
   const classes = useStyles();
@@ -133,12 +124,7 @@ const Index = (): JSX.Element => {
       </section>
 
       <section>
-        <Dialog
-          fullScreen
-          open={open}
-          onClose={handleClose}
-          TransitionComponent={Transition}
-        >
+        <Dialog fullScreen open={open} onClose={handleClose}>
           <AppBar className={classes.appBar}>
             <Toolbar>
               <IconButton
