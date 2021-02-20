@@ -44,7 +44,7 @@ const useStyles = makeStyles((theme) => ({
 
 // eslint-disable-next-line react/display-name
 const Transition = React.forwardRef((props, ref) => (
-  <Slide direction="up" ref={ref} {...props} />
+  <Slide ref={ref} {...props} />
 ));
 
 const Index = (): JSX.Element => {
