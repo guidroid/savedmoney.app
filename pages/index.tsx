@@ -169,7 +169,6 @@ const Index = (): JSX.Element => {
                         color: "white"
                       }}
                       id="filled-basic"
-                      variant="filled"
                     />
                   </FormControl>
                 </Box>
