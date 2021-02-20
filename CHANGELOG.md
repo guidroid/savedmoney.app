@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.18](https://github.com/guidroid/savedmoney.app/compare/v0.1.17...v0.1.18) (2021-02-20)
+
+
+### Bug Fixes
+
+* remove wrong attribute ([1468814](https://github.com/guidroid/savedmoney.app/commit/146881405daa8ca2d4a7815ce7e255c345bb973e))
+
 ### [0.1.17](https://github.com/guidroid/savedmoney.app/compare/v0.1.16...v0.1.17) (2021-02-20)
 
 
