@@ -21,8 +21,14 @@ import {
   Toolbar,
   Typography
 } from "@material-ui/core";
-import { green } from "@material-ui/core/colors";
-import { AttachMoney, Close } from "@material-ui/icons";
+import { green, red } from "@material-ui/core/colors";
+import {
+  AccountBalanceWallet,
+  AttachMoney,
+  Close,
+  GetApp,
+  Publish
+} from "@material-ui/icons";
 import React from "react";
 import CountUp from "react-countup";
 import NumberFormat from "react-number-format";
@@ -56,7 +62,7 @@ const Index = (): JSX.Element => {
         <Container maxWidth="sm">
           <Box p={2} mt={2}>
             <Typography variant="subtitle1" component="p">
-              Savings
+              <AccountBalanceWallet style={{ marginBottom: -6 }} /> My Money
             </Typography>
             <Typography variant="h1" component="h1">
               <CountUp
@@ -71,15 +77,31 @@ const Index = (): JSX.Element => {
           </Box>
           <Box display="flex" justifyContent="center">
             <Button
+              startIcon={<GetApp />}
               variant="contained"
               style={{
-                background: green.A700,
+                background: green[800],
                 borderRadius: 20,
-                fontWeight: 600
+                fontWeight: 600,
+                color: "white"
               }}
               onClick={handleClickOpen}
             >
-              New Saving
+              Deposit
+            </Button>
+            <Button
+              startIcon={<Publish />}
+              variant="contained"
+              style={{
+                background: red[800],
+                borderRadius: 20,
+                fontWeight: 600,
+                marginLeft: 10,
+                color: "white"
+              }}
+              onClick={handleClickOpen}
+            >
+              Withdraw
             </Button>
           </Box>
         </Container>
