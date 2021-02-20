@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.19](https://github.com/guidroid/savedmoney.app/compare/v0.1.18...v0.1.19) (2021-02-20)
+
+
+### Features
+
+* add withdraw button ([ead3132](https://github.com/guidroid/savedmoney.app/commit/ead31321176de48acc55b1692dd0ce9aa8cc19d0))
+
+
+### Bug Fixes
+
+* change manifest icon and config ([c7308e5](https://github.com/guidroid/savedmoney.app/commit/c7308e517dd3b6ec03b435dc64e3a9ed643632a3))
+
 ### [0.1.18](https://github.com/guidroid/savedmoney.app/compare/v0.1.17...v0.1.18) (2021-02-20)
 
 
