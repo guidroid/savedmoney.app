@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.17](https://github.com/guidroid/savedmoney.app/compare/v0.1.16...v0.1.17) (2021-02-20)
+
+
+### Bug Fixes
+
+* remove Transaction Component ([59285fb](https://github.com/guidroid/savedmoney.app/commit/59285fbf7164e442442038055877e9822de06056))
+
 ### [0.1.16](https://github.com/guidroid/savedmoney.app/compare/v0.1.15...v0.1.16) (2021-02-20)
 
 
