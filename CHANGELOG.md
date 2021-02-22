@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.24](https://github.com/guidroid/savedmoney.app/compare/v0.1.23...v0.1.24) (2021-02-22)
+
+
+### Features
+
+* add healthcheck route ([9376c21](https://github.com/guidroid/savedmoney.app/commit/9376c215828a998e19be7adc0d9beb9853efad78))
+
 ### [0.1.23](https://github.com/guidroid/savedmoney.app/compare/v0.1.22...v0.1.23) (2021-02-22)
 
 
