@@ -58,6 +58,17 @@ class MyDocument extends Document {
             content="text/html; charset=UTF-8; X-Content-Type-Options=nosniff"
             httpEquiv="Content-Type"
           />
+
+          {/* <meta
+            httpEquiv="Content-Security-Policy"
+            content="
+      default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; 
+      style-src   'self' https://fonts.googleapis.com;
+      font-src    'self' data: https://fonts.gstatic.com;
+      img-src     'self' data: content:;
+      media-src   *;
+            "
+          /> */}
         </Head>
 
         <body>
