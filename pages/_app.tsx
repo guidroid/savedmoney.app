@@ -1,5 +1,7 @@
 import React from "react";
 
+import { Helmet } from "react-helmet";
+
 // Modules
 import { AppProps } from "next/app";
 import Head from "next/head";
@@ -9,7 +11,7 @@ import { ThemeProvider } from "@material-ui/core/styles";
 // Utils
 import theme from "../utils/theme";
 
-const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
+const App: React.FC<AppProps> = ({ Component, pageProps }) => {
   React.useEffect(() => {
     // Remove the server-side injected CSS.
     const jssStyles = document.querySelector("#jss-server-side");
@@ -36,10 +38,12 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
 
   return (
     <>
-      <Head>
-        <title>savedmoney - Keep Calm And Don't Spend Your Money</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-      </Head>
+      <Helmet>
+        <Head>
+          <title>savedmoney - Keep Calm And Don't Spend Your Money</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+        </Head>
+      </Helmet>
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <Component {...pageProps} />
@@ -48,4 +52,4 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   );
 };
 
-export default MyApp;
+export default App;

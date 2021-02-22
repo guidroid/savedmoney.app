@@ -6,13 +6,18 @@
 savedmoney.app is an app to log your saved money, then keep calm and don't spend
 your money.
 
-[![DeepSource](https://deepsource.io/gh/guidroid/savedmoney.app.svg/?label=active+issues&token=MjmolkEMhUv1dPAfdFGf9s3P)](https://deepsource.io/gh/guidroid/savedmoney.app/?ref=repository-badge)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 ![Website](https://img.shields.io/website?up_color=green&up_message=online&url=https%3A%2F%2Fsavedmoney.app)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=guidroid_savedmoney.app&metric=bugs)](https://sonarcloud.io/dashboard?id=guidroid_savedmoney.app)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=guidroid_savedmoney.app&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=guidroid_savedmoney.app)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=guidroid_savedmoney.app&metric=alert_status)](https://sonarcloud.io/dashboard?id=guidroid_savedmoney.app)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=guidroid_savedmoney.app&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=guidroid_savedmoney.app)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=guidroid_savedmoney.app&metric=security_rating)](https://sonarcloud.io/dashboard?id=guidroid_savedmoney.app)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=guidroid_savedmoney.app&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=guidroid_savedmoney.app)
+![Chromium HSTS preload](https://img.shields.io/hsts/preload/savedmoney.app)
+![Mozilla HTTP Observatory Grade](https://img.shields.io/mozilla-observatory/grade-score/savedmoney.app?publish)
 ![Security Headers](https://img.shields.io/security-headers?url=https%3A%2F%2Fsavedmoney.app)
-![Mozilla HTTP Observatory Grade](https://img.shields.io/mozilla-observatory/grade/savedmoney.app?publish)
-
 ## Stack
 
 - NodeJS

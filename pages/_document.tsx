@@ -49,7 +49,17 @@ class MyDocument extends Document {
           <meta name="apple-mobile-web-app-capable" content="yes" />
           <link rel="apple-touch-icon" href="/images/icons/192.png" />
           <meta name="msapplication-starturl" content="/" />
-          <link rel="canonical" href="http://savedmoney.app/" />
+          <link rel="canonical" href="https://savedmoney.app/" />
+
+          <meta
+            httpEquiv="Content-Security-Policy"
+            content="default-src 'self'; img-src https://*; child-src 'none';"
+          />
+
+          <meta
+            httpEquiv="Referrer-Policy"
+            content="no-referrer, strict-origin-when-cross-origin"
+          />
         </Head>
         <body>
           <Main />

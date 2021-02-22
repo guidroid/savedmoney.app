@@ -44,6 +44,9 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 
+const LOCAL_DB = "savedmoney";
+// const db = new PouchDB(LOCAL_DB);
+
 const Index = (): JSX.Element => {
   const classes = useStyles();
   const [open, setOpen] = React.useState(false);
