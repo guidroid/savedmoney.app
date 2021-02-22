@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.25](https://github.com/guidroid/savedmoney.app/compare/v0.1.24...v0.1.25) (2021-02-22)
+
+
+### Bug Fixes
+
+* add fontSrc to Secure Headers ([df5bce0](https://github.com/guidroid/savedmoney.app/commit/df5bce0e374f050e2ba3ad7fcd9ce1543c40b5e9))
+
 ### [0.1.24](https://github.com/guidroid/savedmoney.app/compare/v0.1.23...v0.1.24) (2021-02-22)
 
 
