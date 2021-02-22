@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.26](https://github.com/guidroid/savedmoney.app/compare/v0.1.25...v0.1.26) (2021-02-22)
+
+
+### Bug Fixes
+
+* add unsafe-inline to style src ([ba88a6c](https://github.com/guidroid/savedmoney.app/commit/ba88a6c22c13a57df97fc3fe835faa8a45361d8f))
+
 ### [0.1.25](https://github.com/guidroid/savedmoney.app/compare/v0.1.24...v0.1.25) (2021-02-22)
 
 
