@@ -13,7 +13,11 @@ if (isProd) {
             contentSecurityPolicy: {
               directives: {
                 defaultSrc: "'self'",
-                styleSrc: ["'self'", "https://fonts.googleapis.com"],
+                styleSrc: [
+                  "'self'",
+                  "https://fonts.googleapis.com",
+                  "'unsafe-inline'"
+                ],
                 fontSrc: ["'self'", "https://fonts.gstatic.com"]
               }
             },
