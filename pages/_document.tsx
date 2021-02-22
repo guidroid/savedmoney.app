@@ -54,6 +54,10 @@ class MyDocument extends Document {
             httpEquiv="Referrer-Policy"
             content="no-referrer, strict-origin-when-cross-origin"
           />
+          <meta
+            content="text/html; charset=UTF-8; X-Content-Type-Options=nosniff"
+            httpEquiv="Content-Type"
+          />
         </Head>
 
         <body>
