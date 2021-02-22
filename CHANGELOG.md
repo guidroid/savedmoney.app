@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.21](https://github.com/guidroid/savedmoney.app/compare/v0.1.20...v0.1.21) (2021-02-22)
+
+
+### Bug Fixes
+
+* fix helmet config ([51fafdb](https://github.com/guidroid/savedmoney.app/commit/51fafdb619aff137f7d02f7bc6f47ab920ce2785))
+
 ### [0.1.20](https://github.com/guidroid/savedmoney.app/compare/v0.1.19...v0.1.20) (2021-02-22)
 
 ### [0.1.19](https://github.com/guidroid/savedmoney.app/compare/v0.1.18...v0.1.19) (2021-02-20)
