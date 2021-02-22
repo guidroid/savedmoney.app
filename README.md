@@ -4,9 +4,9 @@ savedmoney.app is an app to log your saved money, then keep calm and don't spend
 your money.
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-green.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-brightgreen.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-![Website](https://img.shields.io/website?up_color=green&up_message=online&url=https%3A%2F%2Fsavedmoney.app)
+![Website](https://img.shields.io/website?up_color=brightgreen&up_message=online&url=https%3A%2F%2Fsavedmoney.app)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=guidroid_savedmoney.app&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=guidroid_savedmoney.app)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=guidroid_savedmoney.app&metric=alert_status)](https://sonarcloud.io/dashboard?id=guidroid_savedmoney.app)
