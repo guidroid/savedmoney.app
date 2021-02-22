@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.23](https://github.com/guidroid/savedmoney.app/compare/v0.1.22...v0.1.23) (2021-02-22)
+
+
+### Bug Fixes
+
+* add headers ([ec4c488](https://github.com/guidroid/savedmoney.app/commit/ec4c488e0afd6c70e7368cee7c7d7b59e25237a7))
+
 ### [0.1.22](https://github.com/guidroid/savedmoney.app/compare/v0.1.21...v0.1.22) (2021-02-22)
 
 
