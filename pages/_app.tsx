@@ -38,12 +38,20 @@ const App: React.FC<AppProps> = ({ Component, pageProps }) => {
 
   return (
     <>
-      <Helmet>
-        <Head>
-          <title>savedmoney - Keep Calm And Don't Spend Your Money</title>
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
-        </Head>
-      </Helmet>
+      <Helmet
+        htmlAttributes={{ lang: "en" }}
+        title="Savedmoney - Keep Calm And Don't Spend Your Money"
+        meta={[
+          {
+            name: "viewport",
+            content: "width=device-width, initial-scale=1"
+          },
+          {
+            property: "og:title",
+            content: "Savedmoney - Keep Calm And Don't Spend Your Money"
+          }
+        ]}
+      />
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <Component {...pageProps} />

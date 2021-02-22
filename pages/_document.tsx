@@ -1,4 +1,7 @@
 import React from "react";
+
+import { Helmet } from "react-helmet";
+
 // Modules
 import Document, { Html, Head, Main, NextScript } from "next/document";
 // MUI Core
@@ -7,6 +10,30 @@ import { ServerStyleSheets } from "@material-ui/core/styles";
 import theme from "../utils/theme";
 
 class MyDocument extends Document {
+  static async getInitialProps(...args) {
+    const documentProps = await super.getInitialProps(...args);
+    // see https://github.com/nfl/react-helmet#server-usage for more information
+    // 'head' was occupied by 'renderPage().head', we cannot use it
+    return { ...documentProps, helmet: Helmet.renderStatic() };
+  }
+
+  // should render on <html>
+  get helmetHtmlAttrComponents() {
+    return this.props.helmet.htmlAttributes.toComponent();
+  }
+
+  // should render on <body>
+  get helmetBodyAttrComponents() {
+    return this.props.helmet.bodyAttributes.toComponent();
+  }
+
+  // should render on <head>
+  get helmetHeadComponents() {
+    return Object.keys(this.props.helmet)
+      .filter((el) => el !== "htmlAttributes" && el !== "bodyAttributes")
+      .map((el) => this.props.helmet[el].toComponent());
+  }
+
   render(): JSX.Element {
     return (
       <Html lang="pt-BR">
@@ -50,17 +77,12 @@ class MyDocument extends Document {
           <link rel="apple-touch-icon" href="/images/icons/192.png" />
           <meta name="msapplication-starturl" content="/" />
           <link rel="canonical" href="https://savedmoney.app/" />
-
-          <meta
-            httpEquiv="Content-Security-Policy"
-            content="default-src 'self'; img-src https://*; child-src 'none';"
-          />
-
           <meta
             httpEquiv="Referrer-Policy"
             content="no-referrer, strict-origin-when-cross-origin"
           />
         </Head>
+
         <body>
           <Main />
           <NextScript />
