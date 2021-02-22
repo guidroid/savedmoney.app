@@ -13,7 +13,7 @@ if (isProd) {
             contentSecurityPolicy: {
               directives: {
                 defaultSrc: "'self'",
-                styleSrc: ["'self'", "https://stackpath.bootstrapcdn.com"]
+                styleSrc: ["'self'", "https://fonts.googleapis.com"]
               }
             },
             forceHTTPSRedirect: [
